@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WeatherApplication.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="WeatherApplication.js" defer></script>
+</head>
+<body>
+    <main id="main_container">
+        <div id="city_input_container">
+            <input type="text" name="search_bar" id="search_bar" placeholder="Enter City...">
+            <span id="magnifying_glass_icon_container">
+                <i class="fa-solid fa-magnifying-glass" id="magnifying_glass_icon"></i>
+            </span>
+        </div>
+            <div id="location_details_container">
+                <span id="location_dot_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <h1 id="city_name">hii</h1>
+            </div>
+            <div id="weather_informations_container">
+                <img src="../../assets/images/Earth.png" alt="weather_icon" id="weather_image">
+                <h1 id="climate_condition"></h1>
+                <h1 id="temperature_information">
+                    <span id="degree_celsius"></span>
+                    <span id="degree_celcius_C"><sup id="degree_icon">o</sup>C</span>
+                </h1>
+            </div>
+            <div id="humidity_windspeed_container">
+                <div id="humidity_container" class="humidity_windspeed_container">
+                    <h1 id="humidity_heading" class="humidity_windspeed_heading">
+                        Humidity
+                    </h1>
+                    <h1 id="humidity_quantity" class="humidity_windspeed_quantity">
+                        
+                    </h1>
+                </div>
+                <div id="windspeed_container" class="humidity_windspeed_container">
+                    <h1 id="windspeed_heading" class="humidity_windspeed_heading">
+                        Wind Speed
+                    </h1>
+                    <h1 id="windspeed_quantity" class="humidity_windspeed_quantity">
+                        
+                    </h1>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
