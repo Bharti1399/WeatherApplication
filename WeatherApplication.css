@@ -6,17 +6,17 @@
 }
 @font-face {
     font-family: ProductSans;
-    src: url(../../assets/fonts/ProductSansRegular.ttf);
+    src: url(assets/fonts/ProductSansRegular.ttf);
 }
 @font-face {
     font-family: NeueMachina;
-    src: url(../../assets/fonts/NeueMachinaUltrabold.otf);
+    src: url(assets/fonts/NeueMachinaUltrabold.otf);
 }
 body{
     height: 100vh;
     width: 100vw;
     backdrop-filter: blur(4px);
-    background-image: url("../../assets/images/GlacierImage.jpg");
+    background-image: url("assets/images/GlacierImage.jpg");
     background-size: 100% 100%;
     display: flex;
     flex-direction: row;
@@ -88,8 +88,8 @@ body{
     align-items: center;
 }
 #weather_image{
-    height: 80%;
-    width:15%;
+    height: 100%;
+    width:25%;
 }
 #climate_condition{
     font-size: 1em;
