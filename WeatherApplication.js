@@ -38,7 +38,13 @@ document.getElementById("magnifying_glass_icon_container").addEventListener("cli
         weather_image.src=`assets/images/ClearSkyIcon.png`;
     }
     else if(weatherIconID>=801 && weatherIconID<=804){
-        weather_imaged.src=`assets/images/CloudsIcon.png`;
+        weather_image.src=`assets/images/CloudsIcon.png`;
     }
-    cityInputBox.value="";
+    search_city_name.value="";
+})
+
+search_city_name.addEventListener("focus",()=>{
+    location_details_container.style.display="none";
+    weather_informations_container.style.display="none";
+    humidity_windspeed_container.style.display="none";
 })
